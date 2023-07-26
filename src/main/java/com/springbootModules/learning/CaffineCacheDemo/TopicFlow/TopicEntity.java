@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Entity
 @Data
-class TopicEntity{
+public class TopicEntity{
     @Id
     @Column(updatable = false)
     Long id;

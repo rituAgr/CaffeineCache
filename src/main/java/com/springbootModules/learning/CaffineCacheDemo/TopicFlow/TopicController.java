@@ -32,7 +32,7 @@ public class TopicController {
     }
 
     @GetMapping(value = "api/Topic/{id}")
-    public TopicRequest getTopic(@PathVariable(required = true)  Long id) {
+    public TopicEntity getTopic(@PathVariable(required = true)  Long id) {
         return topicService.getTopic(id);
     }
     }
